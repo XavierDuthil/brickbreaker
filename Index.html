@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+ 
+<canvas id="myCanvas" width="650" height="800" style="border:1px solid black;">
+    Votre navigateur ne supporte pas canvas.
+</canvas>
+
+<h1 style="position: absolute; left: 700px; top: 300px; color: red" id="echec"></h1>
+<img src="reset.jpg" style="position: absolute; left: 700px; top: 500px" id="reset" />
+
+<br>
+<table>
+	<tr>Direction balle : <span id="direction"></span></tr><br>
+	<tr>Vitesse balle : <span id="vitesse"></span></tr><br><br>
+	<tr>Position souris X : <span id="mouseX"></span></tr><br>
+	<tr>Position souris Y : <span id="mouseY"></span></tr><br><br>
+	<tr>Position balle X : <span id="posX"></span></tr><br>
+	<tr>Position balle Y : <span id="posY"></span></tr><br>
+</table>
+ 
+<script type="text/javascript" src="CL_Souris.js"></script>
+<script type="text/javascript" src="CL_Balle.js"></script>
+<script type="text/javascript" src="CL_Raquette.js"></script>
+<script type="text/javascript" src="CL_Canvas.js"></script>
+<script type="text/javascript" src="Collisions.js"></script>
+<script type="text/javascript" src="Calcul.js"></script>
+<script type="text/javascript" src="Evenements.js"></script>
+
+ 
+</body>
+</html>
