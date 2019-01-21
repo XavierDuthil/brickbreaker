@@ -1,12 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <body>
- 
+
 <canvas id="myCanvas" width="650" height="800" style="border:1px solid black;">
     Votre navigateur ne supporte pas canvas.
 </canvas>
 
 <h1 style="position: absolute; left: 700px; top: 300px; color: red" id="echec"></h1>
+<h2 style="position: absolute; left: 700px; top: 350px">Score</h2>
+<h3 style="position: absolute; left: 700px; top: 380px" id="temps">0.000 s</h3>
 <img src="reset.jpg" style="position: absolute; left: 700px; top: 500px" id="reset" />
 
 <br>
@@ -18,7 +20,7 @@
 	<tr>Position balle X : <span id="posX"></span></tr><br>
 	<tr>Position balle Y : <span id="posY"></span></tr><br>
 </table>
- 
+
 <script type="text/javascript" src="CL_Souris.js"></script>
 <script type="text/javascript" src="CL_Balle.js"></script>
 <script type="text/javascript" src="CL_Raquette.js"></script>
@@ -27,6 +29,6 @@
 <script type="text/javascript" src="Calcul.js"></script>
 <script type="text/javascript" src="Evenements.js"></script>
 
- 
+
 </body>
 </html>
